@@ -4,7 +4,7 @@ module.exports = {
   description: `Jr. Backend Developer`, // (* Required)
   author: `Museop Kim`, // (* Required)
   language: "ko-KR", // (* Required) html lang, ex. 'en' | 'en-US' | 'ko' | 'ko-KR' | ...
-  siteUrl: "https://", // (* Required)
+  siteUrl: "https://inspiring-saha-1c9a57.netlify.app/", // (* Required)
 
   /** Header */
   profileImageFileName: "profile.webp", // include filename extension ex.'profile.jpg'
