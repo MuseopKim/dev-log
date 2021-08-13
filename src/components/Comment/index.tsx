@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { DiscussionEmbed } from 'disqus-react';
-import config from '../../../_config';
+import * as React from "react";
+import { DiscussionEmbed } from "disqus-react";
+import config from "../../../_config";
 
 interface CommentProps {
   slug: string;
@@ -13,8 +13,8 @@ const Comment = ({ slug, title }: CommentProps) => {
     config: {
       url: `${config.siteUrl + slug}`,
       identifier: slug,
-      title,
-    },
+      title
+    }
   };
 
   return (

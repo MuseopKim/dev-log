@@ -41,6 +41,7 @@ import SEO from "../components/seo";
 
 import { RootState } from "../state/reducer";
 import config from "../../_config";
+import Comment from "../components/Utterance/Comment";
 
 interface postProps {
   data: any;
@@ -389,6 +390,7 @@ const Post = (props: postProps) => {
                   <span>displayed when you deploy</span>
                 </div>
               ) : null}
+              <Comment repo="MuseopKim/dev-log" />
             </>
           ) : (
             <>
@@ -405,7 +407,7 @@ const Post = (props: postProps) => {
                   />
                 )}
               </aside>
-
+              <Comment repo="MuseopKim/dev-log" />
               {!isSSR ? (
                 <Suspense fallback={<></>}>{commentEl}</Suspense>
               ) : null}
