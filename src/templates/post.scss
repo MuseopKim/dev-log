@@ -1,7 +1,9 @@
-@import '../utils/variables.scss';
+@import "../utils/variables.scss";
 
 .blog-post-container {
   padding-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 1.7;
 
   & > div,
   .ad {
