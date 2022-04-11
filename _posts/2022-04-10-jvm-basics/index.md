@@ -14,7 +14,7 @@ keywords:
   - GC
 ---
 
-&ensp;JVM(Java Virtual Machine)은 피지컬 머신에서 자바 코드를 컴파일하고 실행한다.
+&ensp;JVM(Java Virtual Machine)은 피지컬 머신에서 컴파일 된 자바 코드를 실행한다.
 초기의 JVM은 Java 플랫폼만을 지원하도록 설계 되었지만, 현재는 Kotlin, Groovy, Scala와 같은 다양한 언어를 지원하고 있다. 이렇게 JVM이 지원하는 언어들을 통틀어 JVM languages라고도 한다.
 
 
