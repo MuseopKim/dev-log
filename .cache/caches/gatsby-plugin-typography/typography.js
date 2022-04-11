@@ -1,1 +1,0 @@
-module.exports = require("/Users/museop/Documents/study/dev-log/src/utils/typography.ts")
